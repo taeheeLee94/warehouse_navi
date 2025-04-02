@@ -367,11 +367,11 @@ def main():
         print("오류: START 셀은 정확히 1개 있어야 합니다.")
         return
     start = start_cells[0]
-    print("START 지점:", grid[start]['coord'], "->", start)
+    # print("START 지점:", grid[start]['coord'], "->", start)
 
     # 2) 경유지 입력 반복 (여러 경유지 입력 가능, q 입력 시 종료)
     while True:
-        user_input = input("경유지(창고 or 복도; 소문자=창고, 대문자=복도, 여러 개는 쉼표로 구분) (q=종료): ").strip()
+        user_input = input("목적지를 입력해주세요 : (여러 개는 쉼표로 구분, q=종료): ").strip()
         if user_input.lower() == 'q':
             print("종료합니다.")
             break
