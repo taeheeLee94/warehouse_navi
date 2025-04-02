@@ -6,5 +6,8 @@
 라이브러리 버전
 
 openpyxl == 3.0.5
+
 matplotlib == 3.3.2
+
 numpy == 1.24.4
+
